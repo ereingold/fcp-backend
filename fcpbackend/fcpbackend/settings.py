@@ -78,10 +78,11 @@ WSGI_APPLICATION = 'fcpbackend.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "OPTIONS": {
-            "service": "fcp_service",
-            "passfile": ".fcp_pgpass",
-        },
+        'NAME': 'cp-backend-main-db-05bd43c5bc3f258e8', 
+        'USER': 'cp-backend-main-db-05bd43c5bc3f258e8',
+        'PASSWORD': 'cq26XpdZxp753Paj1EpBnUK6qUHprm',
+        'HOST': 'user-prod-us-east-2-1.cluster-cfi5vnucvv3w.us-east-2.rds.amazonaws.com', 
+        'PORT': '5432',
     }
 }
 
