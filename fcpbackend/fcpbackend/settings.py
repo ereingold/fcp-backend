@@ -76,7 +76,6 @@ WSGI_APPLICATION = 'fcpbackend.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "OPTIONS": {
@@ -84,7 +83,7 @@ DATABASES = {
             "passfile": ".fcp_pgpass",
         },
     }
-}}
+}
 
 
 # Password validation
