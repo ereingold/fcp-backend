@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-b7e%+st+$b^@7e&g=y*a7l(v84eme=h*dbc02soq3n-&buylt7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "fcp-backend-app-app-09bd5047825f3edb3-h4u5my4rta-uc.a.run.app"
+]
 
 
 # Application definition
